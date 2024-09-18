@@ -11,9 +11,7 @@ Arcane Wallet, developed by **Faez Labs**, is a secure and user-friendly multi-c
 ## Architecture
 ### Frontend
 - **Framework**: The frontend of Arcane Wallet is built using **React.js** for a modern, responsive user interface.
-- **State Management**: We use **Redux** for state management, ensuring smooth interaction with blockchain APIs and handling user data securely.
-- **UI Library**: A combination of **Material UI** and custom components ensures a clean and responsive design, optimized for both desktop and mobile devices.
-  
+
 ### Backend
 - **Backend Service**: Our backend service is lightweight, as most of the wallet's logic is handled on the frontend. However, backend services are used for maintaining connectivity to blockchain nodes and handling liquidity data for the AMM.
 - **Blockchain Communication**: We use **Web3.js** and **Ethers.js** libraries for interacting with Ethereum, while **Cosmos SDK** integration is planned for CrossFi. Blockchain data is fetched directly from RPC nodes.
